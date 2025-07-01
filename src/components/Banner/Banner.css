@@ -1,0 +1,9 @@
+.banner{
+    background-image: url('../../assets/banner.png');
+}
+
+.transparent{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}

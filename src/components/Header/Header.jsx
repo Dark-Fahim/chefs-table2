@@ -1,4 +1,5 @@
 import { CgProfile } from "react-icons/cg";
+import Banner from "../Banner/Banner";
 
 const Header = () => {
     return (
@@ -20,7 +21,7 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+                    <a className="btn btn-ghost md:text-xl">Recipe Calories</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -33,11 +34,12 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <input type="text" placeholder="Search" className="input rounded-full input-bordered w-24 md:w-auto" />
+                    <input type="text" placeholder="Search" className="input rounded-full input-bordered  md:w-auto" />
                     <a className="btn bg-green-100 text-green-400"><CgProfile></CgProfile></a>
                 </div>
             </div>
             {/* Banner */}
+            <Banner></Banner>
         </div>
     );
 };
