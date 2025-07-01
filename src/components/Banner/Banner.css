@@ -1,5 +1,7 @@
 .banner{
     background-image: url('../../assets/banner.png');
+    /* max-width: 1280px; */
+    width: 100%;
 }
 
 .transparent{
